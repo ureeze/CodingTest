@@ -44,6 +44,7 @@ public class ChickenDelivery15686 {
     private static void dfs(int startIdx, int depth) {
         if (depth == M) {
             bfs();
+
             return;
         }
 
